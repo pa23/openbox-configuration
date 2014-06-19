@@ -1,0 +1,8 @@
+tint2 &
+gnome-screensaver &
+pulseaudio --start &
+numlockx &
+hsetroot -center /home/pa23/distr/wallpapers/gnu_1.jpg &
+nm-applet &
+copyq &
+setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,ru &
