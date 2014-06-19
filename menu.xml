@@ -14,20 +14,8 @@
 			<item label="Qt Linguist"> <action name="Execute">
 				<execute>/usr/lib/qt/bin/linguist</execute>
 			</action> </item>
-			<item label="Qt4 Assistant"> <action name="Execute">
-				<execute>assistant-qt4</execute>
-			</action> </item>
-			<item label="Qt4 Designer"> <action name="Execute">
-				<execute>designer-qt4</execute>
-			</action> </item>
-			<item label="Qt4 Linguist"> <action name="Execute">
-				<execute>linguist-qt4</execute>
-			</action> </item>
 			<item label="Poedit"> <action name="Execute">
 				<execute>poedit</execute>
-			</action> </item>
-			<item label="CMake"> <action name="Execute">
-				<execute>cmake-gui</execute>
 			</action> </item>
 		</menu>
 		<menu id="2" label="Editors">
@@ -36,11 +24,11 @@
 			</action> </item>
 		</menu>
 		<menu id="6" label="Graphics">
-			<item label="GNU Image Manipulation Program"> <action name="Execute">
-				<execute>gimp-2.8</execute>
-			</action> </item>
 			<item label="gthumb"> <action name="Execute">
 				<execute>gthumb</execute>
+			</action> </item>
+			<item label="GNU Image Manipulation Program"> <action name="Execute">
+				<execute>gimp-2.8</execute>
 			</action> </item>
 		</menu>
 		<menu id="8" label="Mathematics">
@@ -75,11 +63,11 @@
 			<item label="Chromium"> <action name="Execute">
 				<execute>chromium</execute>
 			</action> </item>
-			<item label="Geary"> <action name="Execute">
-				<execute>geary</execute>
-			</action> </item>
 			<item label="Transmission"> <action name="Execute">
 				<execute>transmission-gtk</execute>
+			</action> </item>
+			<item label="Geary"> <action name="Execute">
+				<execute>geary</execute>
 			</action> </item>
 		</menu>
 		<menu id="3" label="Office">
@@ -89,9 +77,6 @@
 			<item label="QStarDict"> <action name="Execute">
 				<execute>qstardict</execute>
 			</action> </item>
-			<item label="Evince"> <action name="Execute">
-				<execute>evince</execute>
-			</action> </item>
 		</menu>
 		<menu id="39" label="Other">
 			<item label="Reactivate HP LaserJet 1018/1020 after reloading paper"> <action name="Execute">
@@ -99,14 +84,14 @@
 			</action> </item>
 		</menu>
 		<menu id="19" label="Shells">
-			<item label="Nautilus"> <action name="Execute">
-				<execute>nautilus</execute>
-			</action> </item>
 			<item label="Gnome terminal"> <action name="Execute">
 				<execute>gnome-terminal</execute>
 			</action> </item>
 			<item label="Oracle VM VirtualBox"> <action name="Execute">
 				<execute>VirtualBox</execute>
+			</action> </item>
+			<item label="Nautilus"> <action name="Execute">
+				<execute>nautilus</execute>
 			</action> </item>
 		</menu>
 		<menu id="37" label="System">
