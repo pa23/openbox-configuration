@@ -32,6 +32,9 @@
 			</action> </item>
 		</menu>
 		<menu id="8" label="Mathematics">
+			<item label="FreeMat"> <action name="Execute">
+				<execute>FreeMat</execute>
+			</action> </item>
 			<item label="wxMaxima"> <action name="Execute">
 				<execute>wxmaxima</execute>
 			</action> </item>
