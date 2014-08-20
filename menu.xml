@@ -58,9 +58,6 @@
 			<item label="Audacity"> <action name="Execute">
 				<execute>audacity</execute>
 			</action> </item>
-			<item label="gMTP"> <action name="Execute">
-				<execute>gmtp</execute>
-			</action> </item>
 		</menu>
 		<menu id="5" label="Network">
 			<item label="Chromium"> <action name="Execute">
