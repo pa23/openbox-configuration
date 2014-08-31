@@ -373,6 +373,18 @@
         <command>pavucontrol</command>
       </action>
     </keybind>
+    <!-- system monitor -->
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>gnome-system-monitor</command>
+      </action>
+    </keybind>
+    <!-- terminal -->
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>gnome-terminal</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
@@ -762,7 +774,7 @@
   # order that they appear in this list
 
 
-    # each rule element can be left out or set to 'default' to specify to not 
+    # each rule element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
     <decor>yes</decor>
