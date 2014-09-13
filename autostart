@@ -5,4 +5,4 @@ pulseaudio --start &
 numlockx &
 nm-applet &
 copyq &
-hsetroot -center /home/pa23/distr/wallpapers/gnu_1.jpg &
+pcmanfm --desktop

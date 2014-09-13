@@ -49,9 +49,6 @@
 			<item label="Cheese"> <action name="Execute">
 				<execute>cheese</execute>
 			</action> </item>
-			<item label="Flacon"> <action name="Execute">
-				<execute>flacon</execute>
-			</action> </item>
 			<item label="EasyTag"> <action name="Execute">
 				<execute>easytag</execute>
 			</action> </item>
@@ -90,8 +87,8 @@
 			<item label="Oracle VM VirtualBox"> <action name="Execute">
 				<execute>VirtualBox</execute>
 			</action> </item>
-			<item label="Nautilus"> <action name="Execute">
-				<execute>nautilus</execute>
+			<item label="PCManFM"> <action name="Execute">
+				<execute>pcmanfm</execute>
 			</action> </item>
 		</menu>
 		<menu id="37" label="System">
