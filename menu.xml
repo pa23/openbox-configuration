@@ -24,7 +24,7 @@
 			</action> </item>
 		</menu>
 		<menu id="6" label="Graphics">
-			<item label="gthumb"> <action name="Execute">
+			<item label="gThumb"> <action name="Execute">
 				<execute>gthumb</execute>
 			</action> </item>
 			<item label="GNU Image Manipulation Program"> <action name="Execute">
@@ -37,7 +37,7 @@
 			</action> </item>
 		</menu>
 		<menu id="7" label="Multimedia">
-			<item label="deadbeef"> <action name="Execute">
+			<item label="DeadBeef"> <action name="Execute">
 				<execute>deadbeef</execute>
 			</action> </item>
 			<item label="PulseAudio Volume Control"> <action name="Execute">
@@ -75,8 +75,8 @@
 			</action> </item>
 		</menu>
 		<menu id="19" label="Shells">
-			<item label="lxterminal"> <action name="Execute">
-				<execute>lxterminal</execute>
+			<item label="Mate Terminal"> <action name="Execute">
+				<execute>mate-terminal</execute>
 			</action> </item>
 			<item label="Oracle VM VirtualBox"> <action name="Execute">
 				<execute>VirtualBox</execute>
