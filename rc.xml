@@ -321,11 +321,6 @@
     <keybind key="W-D">
       <action name="Iconify"/>
     </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <command>gnome-terminal</command>
-      </action>
-    </keybind>
     <keybind key="A-F2">
       <action name="Execute">
         <command>gmrun</command>
@@ -373,16 +368,10 @@
         <command>pavucontrol</command>
       </action>
     </keybind>
-    <!-- system monitor -->
-    <keybind key="W-m">
-      <action name="Execute">
-        <command>gnome-system-monitor</command>
-      </action>
-    </keybind>
     <!-- terminal -->
     <keybind key="W-t">
       <action name="Execute">
-        <command>gnome-terminal</command>
+        <command>mate-terminal</command>
       </action>
     </keybind>
   </keyboard>
