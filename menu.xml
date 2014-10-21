@@ -75,8 +75,8 @@
 			</action> </item>
 		</menu>
 		<menu id="19" label="Shells">
-			<item label="Mate Terminal"> <action name="Execute">
-				<execute>mate-terminal</execute>
+			<item label="Gnome Terminal"> <action name="Execute">
+				<execute>gnome-terminal</execute>
 			</action> </item>
 			<item label="Oracle VM VirtualBox"> <action name="Execute">
 				<execute>VirtualBox</execute>
