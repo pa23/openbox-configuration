@@ -54,8 +54,8 @@
 			</action> </item>
 		</menu>
 		<menu id="5" label="Network">
-			<item label="Chromium"> <action name="Execute">
-				<execute>chromium</execute>
+			<item label="Mozilla Firefox"> <action name="Execute">
+				<execute>firefox</execute>
 			</action> </item>
 			<item label="Transmission"> <action name="Execute">
 				<execute>transmission-gtk</execute>
