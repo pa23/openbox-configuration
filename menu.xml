@@ -37,14 +37,17 @@
 			</action> </item>
 		</menu>
 		<menu id="7" label="Multimedia">
-			<item label="DeadBeef"> <action name="Execute">
-				<execute>deadbeef</execute>
-			</action> </item>
+            <item label="VLC"> <action name="Execute">
+			    <execute>vlc</execute>
+		    </action> </item>
 			<item label="PulseAudio Volume Control"> <action name="Execute">
 				<execute>pavucontrol</execute>
 			</action> </item>
 			<item label="Cheese"> <action name="Execute">
 				<execute>cheese</execute>
+			</action> </item>
+			<item label="Flacon"> <action name="Execute">
+				<execute>flacon</execute>
 			</action> </item>
 			<item label="EasyTag"> <action name="Execute">
 				<execute>easytag</execute>
