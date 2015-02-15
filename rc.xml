@@ -374,6 +374,18 @@
         <command>gnome-terminal</command>
       </action>
     </keybind>
+    <!-- web browser -->
+    <keybind key="W-b">
+      <action name="Execute">
+        <command>chromium</command>
+      </action>
+    </keybind>
+    <!-- email -->
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>claws-mail</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
