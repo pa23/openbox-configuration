@@ -87,6 +87,9 @@
 			<item label="PCManFM"> <action name="Execute">
 				<execute>pcmanfm</execute>
 			</action> </item>
+            <item label="Android File Transfer"> <action name="Execute">
+				<execute>android-file-transfer</execute>
+			</action> </item>
 		</menu>
 		<menu id="37" label="System">
 			<menu id="36" label="Settings">
