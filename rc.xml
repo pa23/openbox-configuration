@@ -377,7 +377,7 @@
     <!-- web browser -->
     <keybind key="W-b">
       <action name="Execute">
-        <command>chromium</command>
+        <command>firefox</command>
       </action>
     </keybind>
     <!-- email -->
