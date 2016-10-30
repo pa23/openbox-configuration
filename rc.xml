@@ -371,7 +371,7 @@
     <!-- terminal -->
     <keybind key="W-t">
       <action name="Execute">
-        <command>gnome-terminal</command>
+        <command>xfce4-terminal</command>
       </action>
     </keybind>
     <!-- web browser -->

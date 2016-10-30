@@ -6,13 +6,13 @@
 				<execute>qtcreator</execute>
 			</action> </item>
 			<item label="Qt Assistant"> <action name="Execute">
-				<execute>/usr/lib/qt/bin/assistant</execute>
+				<execute>assistant</execute>
 			</action> </item>
 			<item label="Qt Designer"> <action name="Execute">
-				<execute>/usr/lib/qt/bin/designer</execute>
+				<execute>designer</execute>
 			</action> </item>
 			<item label="Qt Linguist"> <action name="Execute">
-				<execute>/usr/lib/qt/bin/linguist</execute>
+				<execute>linguist</execute>
 			</action> </item>
 			<item label="Poedit"> <action name="Execute">
 				<execute>poedit</execute>
@@ -28,7 +28,7 @@
 				<execute>gthumb</execute>
 			</action> </item>
 			<item label="GNU Image Manipulation Program"> <action name="Execute">
-				<execute>gimp-2.8</execute>
+				<execute>gimp</execute>
 			</action> </item>
 		</menu>
 		<menu id="8" label="Mathematics">
@@ -60,9 +60,11 @@
             <item label="Firefox"> <action name="Execute">
 			    <execute>firefox</execute>
 			</action> </item>
+            <!--
 			<item label="Chromium"> <action name="Execute">
 				<execute>chromium</execute>
 			</action> </item>
+            -->
 			<item label="Transmission"> <action name="Execute">
 				<execute>transmission-gtk</execute>
 			</action> </item>
@@ -81,17 +83,14 @@
 			</action> </item>
 		</menu>
 		<menu id="19" label="Shells">
-			<item label="Gnome Terminal"> <action name="Execute">
-				<execute>gnome-terminal</execute>
+			<item label="Terminal"> <action name="Execute">
+				<execute>xfce4-terminal</execute>
 			</action> </item>
 			<item label="Oracle VM VirtualBox"> <action name="Execute">
 				<execute>VirtualBox</execute>
 			</action> </item>
 			<item label="PCManFM"> <action name="Execute">
 				<execute>pcmanfm</execute>
-			</action> </item>
-            <item label="Android File Transfer"> <action name="Execute">
-				<execute>android-file-transfer</execute>
 			</action> </item>
 		</menu>
 		<menu id="37" label="System">
