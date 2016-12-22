@@ -383,7 +383,7 @@
     <!-- email -->
     <keybind key="W-m">
       <action name="Execute">
-        <command>claws-mail</command>
+        <command>geary</command>
       </action>
     </keybind>
   </keyboard>
