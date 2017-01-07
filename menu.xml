@@ -106,13 +106,16 @@
             <item label="Gnome system monitor"> <action name="Execute">
 			    <execute>gnome-system-monitor</execute>
 		    </action> </item>
-		    <item label="Network Connections"> <action name="Execute">
+		    <item label="Sound control"> <action name="Execute">
+			    <execute>pavucontrol</execute>
+		    </action> </item>
+            <item label="Network connections"> <action name="Execute">
 			    <execute>nm-connection-editor</execute>
 		    </action> </item>
 		    <item label="Disks"> <action name="Execute">
 			    <execute>gnome-disks</execute>
 		    </action> </item>
-		    <item label="Manage Printing"> <action name="Execute">
+		    <item label="Manage printing"> <action name="Execute">
 			    <execute>xdg-open http://localhost:631/</execute>
 		    </action> </item>
 		</menu>
