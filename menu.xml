@@ -23,6 +23,11 @@
 				<execute>emacs</execute>
 			</action> </item>
 		</menu>
+        <menu id="4" label="Games">
+			<item label="Super Tux"> <action name="Execute">
+				<execute>supertux2</execute>
+			</action> </item>
+		</menu>
 		<menu id="6" label="Graphics">
 			<item label="gThumb"> <action name="Execute">
 				<execute>gthumb</execute>
@@ -60,11 +65,12 @@
             <item label="Firefox"> <action name="Execute">
 			    <execute>firefox</execute>
 			</action> </item>
-            <!--
-			<item label="Chromium"> <action name="Execute">
-				<execute>chromium</execute>
+            <item label="Tor browser"> <action name="Execute">
+			    <execute>tor-browser-ru</execute>
 			</action> </item>
-            -->
+            <item label="Geary"> <action name="Execute">
+			    <execute>geary</execute>
+			</action> </item>
 			<item label="Transmission"> <action name="Execute">
 				<execute>transmission-gtk</execute>
 			</action> </item>
@@ -94,22 +100,21 @@
 			</action> </item>
 		</menu>
 		<menu id="37" label="System">
-			<menu id="36" label="Settings">
-				<menu id="21" label="GNOME">
-				<item label="Network Connections"> <action name="Execute">
-				        <execute>nm-connection-editor</execute>
-				</action> </item>
-				</menu>
-				<item label="Disks"> <action name="Execute">
-					<execute>gnome-disks</execute>
-				</action> </item>
-				<item label="Manage Printing"> <action name="Execute">
-					<execute>xdg-open http://localhost:631/</execute>
-				</action> </item>
-			</menu>
-			<item label="Passwords and Keys"> <action name="Execute">
-			    <execute>seahorse</execute>
-			</action> </item>
+            <item label="Gnome control center"> <action name="Execute">
+			    <execute>gnome-control-center</execute>
+		    </action> </item>
+            <item label="Gnome system monitor"> <action name="Execute">
+			    <execute>gnome-system-monitor</execute>
+		    </action> </item>
+		    <item label="Network Connections"> <action name="Execute">
+			    <execute>nm-connection-editor</execute>
+		    </action> </item>
+		    <item label="Disks"> <action name="Execute">
+			    <execute>gnome-disks</execute>
+		    </action> </item>
+		    <item label="Manage Printing"> <action name="Execute">
+			    <execute>xdg-open http://localhost:631/</execute>
+		    </action> </item>
 		</menu>
 		<separator/>
 		<menu id="40" label="OpenBox">
