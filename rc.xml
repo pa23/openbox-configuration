@@ -383,7 +383,7 @@
     <!-- email -->
     <keybind key="W-m">
       <action name="Execute">
-        <command>geary</command>
+        <command>thunderbird</command>
       </action>
     </keybind>
   </keyboard>

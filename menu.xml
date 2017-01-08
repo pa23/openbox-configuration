@@ -68,8 +68,8 @@
             <item label="Tor browser"> <action name="Execute">
 			    <execute>tor-browser-ru</execute>
 			</action> </item>
-            <item label="Geary"> <action name="Execute">
-			    <execute>geary</execute>
+            <item label="Thunderbird"> <action name="Execute">
+			    <execute>thunderbird</execute>
 			</action> </item>
 			<item label="Transmission"> <action name="Execute">
 				<execute>transmission-gtk</execute>
