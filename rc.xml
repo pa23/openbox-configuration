@@ -386,6 +386,12 @@
         <command>thunderbird</command>
       </action>
     </keybind>
+    <!-- gnu_emacs -->
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>emacs</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
